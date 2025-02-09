@@ -464,7 +464,7 @@ Camera:
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 45
-  orthographic: 1
+  orthographic: 0
   orthographic size: 10
   m_Depth: -1
   m_CullingMask:
@@ -490,7 +490,7 @@ Transform:
   m_GameObject: {fileID: 534669902}
   serializedVersion: 2
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -0.06, y: 25, z: 7.5}
+  m_LocalPosition: {x: -1.33, y: 26.07, z: 6.12}
   m_LocalScale: {x: 1, y: 20, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -504,9 +504,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1824345798139755858, guid: 7ddbf3b0e43e8e940bc7eb5b86b9e121, type: 3}
-      propertyPath: m_Enabled
-      value: 1
+    - target: {fileID: 3255685343353464458, guid: 7ddbf3b0e43e8e940bc7eb5b86b9e121, type: 3}
+      propertyPath: m_Size.x
+      value: 0.35356998
+      objectReference: {fileID: 0}
+    - target: {fileID: 3255685343353464458, guid: 7ddbf3b0e43e8e940bc7eb5b86b9e121, type: 3}
+      propertyPath: m_Size.z
+      value: 0.4506608
+      objectReference: {fileID: 0}
+    - target: {fileID: 3255685343353464458, guid: 7ddbf3b0e43e8e940bc7eb5b86b9e121, type: 3}
+      propertyPath: m_Center.x
+      value: -0.025062779
+      objectReference: {fileID: 0}
+    - target: {fileID: 3255685343353464458, guid: 7ddbf3b0e43e8e940bc7eb5b86b9e121, type: 3}
+      propertyPath: m_Center.z
+      value: 0.034760453
       objectReference: {fileID: 0}
     - target: {fileID: 6932277247522361566, guid: 7ddbf3b0e43e8e940bc7eb5b86b9e121, type: 3}
       propertyPath: m_LocalPosition.x
@@ -711,6 +723,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: Animal_Doe_01
       objectReference: {fileID: 0}
+    - target: {fileID: 4589753244424144323, guid: 702c6eeb5e97a344f93d5225594eb264, type: 3}
+      propertyPath: m_Size.x
+      value: 0.26243445
+      objectReference: {fileID: 0}
+    - target: {fileID: 4589753244424144323, guid: 702c6eeb5e97a344f93d5225594eb264, type: 3}
+      propertyPath: m_Size.y
+      value: 0.8685185
+      objectReference: {fileID: 0}
+    - target: {fileID: 4589753244424144323, guid: 702c6eeb5e97a344f93d5225594eb264, type: 3}
+      propertyPath: m_Size.z
+      value: 0.63234234
+      objectReference: {fileID: 0}
+    - target: {fileID: 4589753244424144323, guid: 702c6eeb5e97a344f93d5225594eb264, type: 3}
+      propertyPath: m_Center.x
+      value: 0.0005611181
+      objectReference: {fileID: 0}
+    - target: {fileID: 4589753244424144323, guid: 702c6eeb5e97a344f93d5225594eb264, type: 3}
+      propertyPath: m_Center.y
+      value: -0.065741174
+      objectReference: {fileID: 0}
+    - target: {fileID: 4589753244424144323, guid: 702c6eeb5e97a344f93d5225594eb264, type: 3}
+      propertyPath: m_Center.z
+      value: -0.18382883
+      objectReference: {fileID: 0}
     - target: {fileID: 6803728780223063047, guid: 702c6eeb5e97a344f93d5225594eb264, type: 3}
       propertyPath: m_LocalPosition.x
       value: -8.962997
@@ -750,10 +786,6 @@ PrefabInstance:
     - target: {fileID: 6803728780223063047, guid: 702c6eeb5e97a344f93d5225594eb264, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8315632387563863921, guid: 702c6eeb5e97a344f93d5225594eb264, type: 3}
-      propertyPath: m_Enabled
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -955,10 +987,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7099607037317018158, guid: 93cbf01c0b8c8f640818c834cfbb76bd, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7381945427184396354, guid: 93cbf01c0b8c8f640818c834cfbb76bd, type: 3}
       propertyPath: m_Name
       value: Animal_Fox_01
@@ -982,7 +1010,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6765975213096266164, guid: fe316f9194edb57418f395cf13c5454e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.3780742
+      value: -9.59
       objectReference: {fileID: 0}
     - target: {fileID: 6765975213096266164, guid: fe316f9194edb57418f395cf13c5454e, type: 3}
       propertyPath: m_LocalPosition.y
