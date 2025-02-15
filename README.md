@@ -21,7 +21,3 @@ This project was developed as part of the **Unity Junior Programmer Pathway**, d
 1. Move around using **WASD** or **Arrow Keys**.  
 2. Shoot with spacebar
 3. Survive waves of crazy animals and protect your farm!  
-## 📦 Installation  
-1. Clone the repository:  
-   ```bash
-   git clone https://github.com/yourusername/Moosaapocalypse.git
